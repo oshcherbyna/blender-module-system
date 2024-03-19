@@ -11,7 +11,7 @@ Usage:
 1.  Add to Scene:
     1.1 'Neutral NPC' (Suzanne);
     1.2 'Aggressive NPC' (copy and rename of 'Neutral NPC');
-    1.3 Move them to collections 'Movable'
+    1.3 Move them to collection 'Movable'
     1.3 'Player' (rename Camera), 'Random Point' (Cube), 'Spawn Point' (Cone)
     1.4 'PlayerHpBarBack'(Plane, child of Camera) + 'HpBar' (Cube or Plane) as a child.
 
