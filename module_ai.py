@@ -12,8 +12,8 @@ Usage:
     1.1 'Neutral NPC' (Suzanne);
     1.2 'Aggressive NPC' (copy and rename of 'Neutral NPC');
     1.3 Move them to collection 'Movable'
-    1.3 'Player' (rename Camera), 'Random Point' (Cube), 'Spawn Point' (Cone)
-    1.4 'PlayerHpBarBack'(Plane, child of Camera) + 'HpBar' (Cube or Plane) as a child.
+    1.4 'Player' (rename Camera), 'Random Point' (Cube), 'Spawn Point' (Cone)
+    1.5 'PlayerHpBarBack'(Plane, child of Camera) + 'HpBar' (Cube or Plane) as a child.
 
 2.  (for module_system) Create text block main.py
     ai = import_as_module["module_ai.py"]
