@@ -1,4 +1,4 @@
-# blender-module-system
+# module_system
 Module System for Blender Game Projects
 
 - module_auth.py - :clapper:[[Blender 4.0] Login Screen + Authorisation](https://www.youtube.com/watch?v=lT3lVh1dh2s)
