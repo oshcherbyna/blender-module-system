@@ -1,4 +1,7 @@
 '''
+UTF-8
+code: v1.0 by @o.shcherbyna
+
 Module Keyconfig
     1. Binding keyboard keys to keyconfig_operators
 
