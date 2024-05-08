@@ -1,5 +1,6 @@
 '''
 Enrty point.
+Info: https://blenderartists.org/t/bege-module-keyconfig-player-wasd-movement
 '''
 import bpy
 
