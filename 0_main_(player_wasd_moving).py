@@ -8,14 +8,13 @@ __name__ = '[main.py]'
 print(__name__)
 
 module_player = bpy.data.texts["module_player.py"].as_module()
-module_keyconfig = bpy.data.texts["module_keyconfig.py"].as_module()
-
 
 scene = bpy.context.scene
 #player = module_player.init(scene.objects['Cube']) #scene.objects['Camera']) # remove parent and ? dooble run main.py 
 player = module_player.init(scene.objects['Rocket Launcher'])
 scene["player"] = player
 
+module_keyconfig = bpy.data.texts["module_keyconfig.py"].as_module()
 module_keyconfig.init() # <= need scene["player"]
 
 
